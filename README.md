@@ -16,7 +16,7 @@ Our system connects directly to the Steam Web API to process real-time game data
 ## 🛠️ Tech Stack
 
 - **Frontend:** React 19, Vite, Tailwind CSS v4, Lucide React, Recharts
-- **Backend (Planned):** Python 3.12+, Django REST Framework
+- **Backend (Planned):** Python 3.12+, FastAPI, Uvicorn
 - **Machine Learning (Planned):** `pandas`, `scikit-learn`, `feature-engine`, HuggingFace `transformers`
 
 ---
