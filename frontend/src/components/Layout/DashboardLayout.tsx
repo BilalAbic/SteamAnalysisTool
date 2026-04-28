@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sidebar } from '../Sidebar/Sidebar';
 import { Database, Search } from 'lucide-react';
-import { ViewType } from '../../App';
+import type { ViewType } from '../../App';
 
 interface DashboardLayoutProps {
   children: React.ReactNode;

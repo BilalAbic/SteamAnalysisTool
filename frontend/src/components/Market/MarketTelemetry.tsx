@@ -1,6 +1,6 @@
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, Cell } from 'recharts';
 import { LineChart, Line } from 'recharts';
-import { BarChart3, TrendingUp, DollarSign } from 'lucide-react';
+import { TrendingUp, DollarSign } from 'lucide-react';
 
 const scatterData = [
   { name: 'Game A', price: 19.99, reviews: 85, success: 1 },

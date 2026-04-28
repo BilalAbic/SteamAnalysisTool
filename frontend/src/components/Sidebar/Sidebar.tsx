@@ -1,5 +1,5 @@
 import { LayoutDashboard, PlusCircle, FileText, BarChart3, Database } from 'lucide-react';
-import { ViewType } from '../../App';
+import type { ViewType } from '../../App';
 
 interface SidebarProps {
   currentView: ViewType;
@@ -25,7 +25,7 @@ export function Sidebar({ currentView, setCurrentView }: SidebarProps) {
           </div>
         </div>
         <div>
-          <span className="text-xl font-bold text-sys-text tracking-[0.1em] uppercase">CYNOSURE</span>
+          <span className="text-xl font-bold text-sys-text tracking-[0.1em] uppercase">Game Oracle</span>
           <div className="text-[10px] text-sys-muted font-bold tracking-[0.2em] uppercase mt-1">ANALYSIS SYSTEM</div>
         </div>
       </div>
@@ -33,7 +33,7 @@ export function Sidebar({ currentView, setCurrentView }: SidebarProps) {
       <div className="flex-1 py-8 px-6 pl-8 space-y-3">
         <div className="text-xs font-bold text-sys-muted uppercase tracking-[0.2em] mb-6">Navigation Control</div>
 
-        {menuItems.map((item, idx) => {
+        {menuItems.map((item) => {
           const Icon = item.icon;
           const isActive = currentView === item.id;
           return (
